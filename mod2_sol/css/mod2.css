@@ -4,6 +4,15 @@
 	padding: 0px;
 }
 
+body{
+	background-color: #ff007f;
+}
+
+#row{
+	padding-left: 15px;
+	margin-left: 15px;
+}
+
 h1{
 	background-color: #a456d5;
 	width:135px;
@@ -15,27 +24,32 @@ h1{
 .item1,.item2,.item3{
 	
 	background-color: #00ffff;
+	font-size: 50px;
+	font-style: italic;
+	font-family:"Lucida Console", Courier, monospace;;
 }
 
 
 
 p{
-	font-size: 15px;
+	font-size: 20px;
 	font-weight: bold;
 	margin-top: 10px;
-	padding-top: 10px;
+	padding-top: 30px;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 p:hover{
 	background-color: #ffff00;
 }
 
-h5{
+.heading{
 	float:right;
 	border: 1px solid red;
 	margin: 0px;
 	position: relative;
 	bottom: 1px;
+	font-size: 30px;
 }
 
 @media (max-width:767px){
@@ -88,7 +102,7 @@ h5{
 	.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
     border: 1px solid blue;
-    height:130px;
+    height:230px;
     margin:3px;
     padding: 3px;
     margin-right: 11px;
@@ -135,9 +149,9 @@ h5{
 	.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
     border: 1px solid green;
-    height:170px;
-    margin:2.5px;
-    padding:2.5px;
+    height:350px;
+    margin:5px;
+    padding:3px;
 	}
 	.col-lg-1 {
     	width: 8.33%;
