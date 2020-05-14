@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>test</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="j_s.js"></script>
+	<script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js" ></script>
+</head>
+<body>
+<h1>IMAGE FILTER</h1>
+<div id="outer">
+	<div id="can">
+		<canvas  id=ipimg></canvas>
+		<canvas  id=opimg></canvas>
+	</div>
+	<div id="inp_file">
+		<p class="headings">INPUT IMAGE </p>   <input type="file" accept="image/*" multiple="false" onchange="addimage()" id="i_f">
+	</div>
+	<br>
+	<div>
+		<div class="headings">
+			<p>FILTERS</p>
+		</div>
+		<div id="b_1">
+		 	<input type="button" id="but_1"  value = "GREYSCALE" onclick="greyscale()">
+			<span id="b_2">
+			<input type="button" id="but_2"  value = "NEGATIVE" onclick="negative()">
+			</span>
+			<span><input type="button" id="r_f" class="filters"  value = "REDfilter" onclick="redfilter()"></span>
+			<span><input type="button" id="g_f" class="filters"  value = "GREENfilter" onclick="greenfilter()"></span>
+			<span><input type="button" id="b_f" class="filters"  value = "BLUEfilter" onclick="bluefilter()"></span>
+		</div>
+	</div>
+	<br>
+	<div>
+		<div class="headings">
+			<p>BRIGHTNESS</p>
+		</div>
+		<div>
+			<input type="button" id="but_3"  value = "+" onclick="doc1()"> <input type="button" id="but_4"  value = "-" onclick="doc2()">
+		</div>
+	</div>
+	<br>
+	<div>
+		<input type="button" id="but_5"  value = "RESET" onclick="reset()">
+	</div>
+</div>
+</body>
+</html>
