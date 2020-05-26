@@ -1,0 +1,71 @@
+*{
+	box-sizing: border-box;
+	margin:0;
+}
+
+body{
+	font-family: 'Balsamiq Sans', cursive;
+	background-color: #1E28A1;
+}
+
+#header-nav{
+	background-color: #1EA17F;
+	border-radius: 0px;
+	border:0px;
+}
+
+#tit{
+	font-size: 1.6em;
+	height: 100px;
+	width: 100px;
+	color: #ffff00;
+}
+
+#food-item a{
+	color:#000000;
+	text-align: center;
+}
+
+#food-item a{
+	background-color:#00ffff;
+}
+
+
+#food-item a:hover{
+	background-color:#777777;
+}
+
+button{
+	border:20px solid red;
+}
+
+#main_tit{
+	color: orange;
+	font-size: 5vw;
+	width: 100%;
+}
+
+.main-heading{
+	font-weight: bold;
+	font-size: 1.6em;
+	background-color: brown;
+	color:white;
+}
+
+.tot-cont{
+	font-size: 1.2em;
+}
+
+#cont_1,#cont_2,#cont_3{
+	background-color: orange;
+	border:2px solid red;
+	box-shadow: 2px 2px 2px black;
+	margin-bottom: 10px;
+}
+
+.row{
+	width:100%;
+	left:10px;
+		margin-left: auto;
+	margin-right: auto;
+}
